@@ -32,6 +32,7 @@ cd redpill-load
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json"
+./ext-manager.sh add "https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json"
 ./ext-manager.sh remove 'thethorgroup.virtio'
 
 cp -f ${root}/user_config.DS3615xs.json ./user_config.json
