@@ -39,7 +39,7 @@ cd redpill-load
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/rpext-index.json"
 
-cp ${root}/user_config.DS3617xs+.json ./user_config.json
+cp ${root}/user_config.DS3617xs.json ./user_config.json
 sudo ./build-loader.sh 'DS3617xs' '7.0.1-42218'
 mv images/redpill-DS3617xs+_7.0.1-4221*.img ${root}/output/
 cd ${root}
