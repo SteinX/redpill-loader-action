@@ -30,7 +30,6 @@ cd redpill-load
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/rpext-index.json"
-./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/rpext-index.json"
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/rpext-index.json"
@@ -39,6 +38,6 @@ cd redpill-load
 ./ext-manager.sh add "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json"
 
 cp ${root}/user_config.DS3617xs.json ./user_config.json
-sudo ./build-loader.sh 'DS3617xs' '7.0.1-42218u2'
+sudo ./build-loader.sh 'DS3617xs' '7.0.1-42218'
 mv images/redpill-DS3617xs+_7.0.1-4221*.img ${root}/output/
 cd ${root}
